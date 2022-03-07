@@ -1,0 +1,15 @@
+{
+  "name": "7ecourses",
+  "version": "1.0.0",
+  "description": "Dummy Website for eCourses",
+  "main": "index.html",
+  "scripts": {
+    "compile-sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Ravi Chauhan",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}

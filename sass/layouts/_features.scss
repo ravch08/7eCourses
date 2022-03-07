@@ -1,0 +1,33 @@
+#features {
+    padding: 4.5rem 0;
+
+    .oc-items {
+        display: flex;
+        align-items: center;
+
+        svg {
+            color: lighten($clr-subheading, 20%);
+            font-size: 3.6rem;
+            margin-right: 1rem;
+        }
+
+        span {
+            color: $clr-heading;
+            font-size: 1.6rem;
+            line-height: 1.4;
+        }
+    }
+}
+
+
+// Media Queries
+
+@media only screen and (max-width: 992px) {
+    #features {
+        padding: 3rem 0 1.5rem;
+
+        .oc-items span {
+            font-size: 1.4rem;
+        }
+    }
+}

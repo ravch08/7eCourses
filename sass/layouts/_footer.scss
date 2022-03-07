@@ -1,0 +1,235 @@
+footer {
+    background-color: $clr-light;
+    padding-top: 5rem;
+
+    .support {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .row {
+        align-items: flex-start;
+    }
+}
+
+.ftr-logo {
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
+
+    .logo-ftr {
+        margin-bottom: 1.2rem;
+    }
+
+    span {
+        font-size: 1.5rem;
+        color: $clr-subheading;
+    }
+}
+
+.ftr-social-icons {
+    position: relative;
+    margin-top: 2rem;
+
+    svg {
+        position: relative;
+        z-index: 2;
+        color: $clr-subheading;
+        transform: translateY(4px);
+        transition: color 0.3s ease-in-out;
+    }
+
+    a {
+        padding: 0 1.2rem;
+
+        &:hover svg {
+            color: $clr-accent;
+        }
+    }
+
+    a:before {
+        position: absolute;
+        top: 0;
+        content: "";
+        border-radius: 0.3rem;
+        background-color: darken($color: $clr-light, $amount: 5%);
+        color: $clr-white;
+        text-align: center;
+        width: 3rem;
+        height: 3rem;
+    }
+
+    a:first-child:before {
+        left: 0;
+    }
+
+    a:nth-child(2):before {
+        left: 16.5%;
+    }
+
+    a:nth-child(3):before {
+        left: 33.5%;
+    }
+
+    a:last-child:before {
+        left: 51%;
+    }
+}
+
+.ftr-menu {
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
+
+    .ftr-items {
+        font-size: 1.5rem;
+        padding: 1rem 0;
+        color: $clr-subheading;
+        transition: color 0.3s ease-in-out;
+
+        &:hover {
+            color: $clr-accent;
+        }
+    }
+}
+
+.ftr-companyinfo {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 28%;
+
+    .companyinfo {
+        display: flex;
+        align-items: flex-start;
+        padding: 0.8rem 0;
+
+        svg {
+            font-size: 2.4rem;
+            color: $clr-subheading;
+            transform: translateY(0.5rem);
+            transition: color 0.3s ease-in-out;
+            margin-right: 1.5rem;
+            width: 2.4rem;
+            height: 2.4rem;
+        }
+
+        p {
+            color: $clr-heading;
+        }
+
+        span {
+            color: $clr-subheading;
+        }
+
+        &:hover svg {
+            color: $clr-accent;
+        }
+    }
+}
+
+
+.ftr-blog {
+    display: flex;
+    flex-basis: 32%;
+    flex-direction: column;
+
+    .blog-details {
+        padding: 0.8rem 0;
+    }
+}
+
+.ftr-bar {
+    margin-top: 2rem;
+    padding: 2rem 0;
+    color: $clr-subheading;
+
+    .company-info {
+        justify-content: space-between;
+    }
+
+    a {
+        color: $clr-accent;
+    }
+
+    span {
+        margin-left: 2rem;
+    }
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    z-index: 99;
+    padding: 0.8rem 1.2rem;
+    background-color: rgb(199, 198, 198);
+    transition: background-color 0.3s ease-in-out,
+        color 0.3s ease-in-out,
+        visibility 0.2s ease-in-out;
+
+    svg {
+        font-size: 1.2rem;
+        color: $clr-heading;
+    }
+
+    &:hover {
+        background-color: $clr-accent;
+
+        svg {
+            color: white;
+        }
+    }
+}
+
+
+//Media Queries 
+
+
+@media only screen and (max-width:576px) {
+
+    footer {
+
+        .ftr-blog,
+        .ftr-companyinfo,
+        .ftr-menu {
+            margin: 2rem 0;
+        }
+
+        .ftr-logo {
+            margin: 2rem 0 4rem;
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    footer {
+        .row {
+            flex-wrap: wrap;
+        }
+    }
+
+    .ftr-row-items {
+        flex-basis: 50%;
+        margin: 2rem 0 1rem;
+        padding: 0 1rem;
+    }
+
+    .ftr-bar {
+        flex-direction: column;
+        text-align: center;
+        align-items: center !important;
+
+        .company-info {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (min-width: 1024.99px) and (max-width:1199.99px) {
+
+    .ftr-row-items {
+        padding: 0 1rem;
+    }
+}

@@ -1,0 +1,54 @@
+#trending-courses {
+    padding: 4rem 0;
+
+    .heading-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 3rem;
+    }
+
+    #course-carousel {
+        padding: 0 3rem;
+    }
+
+    .oc-items {
+        position: relative;
+    }
+
+    .oc-cont {
+        padding: 2rem;
+        background-color: #fff;
+        text-align: center;
+        z-index: 100;
+        width: 80%;
+        margin: 0 auto;
+        transform: translateY(-50%);
+
+        span {
+            color: $clr-accent;
+        }
+    }
+
+    .owl-next {
+        right: 1%;
+    }
+
+    .owl-prev {
+        left: 1%;
+    }
+}
+
+
+// Media Queries 
+
+@media only screen and (max-width: 992px) {
+
+    #trending-courses {
+        padding: 1rem 0;
+    }
+
+    #course-carousel {
+        padding: 0 4rem;
+    }
+}

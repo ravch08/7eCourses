@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="12" height="12" rx="1" transform="translate(675 2470)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_4" data-name="Group 4" transform="translate(-675 -2419)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="30" height="30" rx="1" transform="translate(675 2419)" fill="#2fcdb1"/>
+    <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(9 -42)" clip-path="url(#clip-path)">
+      <path id="certificate-solid" d="M10.749,6l1.078-1.055A.558.558,0,0,0,11.577,4l-1.468-.375.414-1.453a.568.568,0,0,0-.7-.7l-1.453.414L8,.419a.562.562,0,0,0-.945-.25L6,1.256,4.946.169A.562.562,0,0,0,4,.419L3.626,1.888,2.173,1.474a.568.568,0,0,0-.7.7l.414,1.453L.423,4a.558.558,0,0,0-.25.945L1.251,6,.173,7.053A.558.558,0,0,0,.423,8l1.468.375L1.478,9.827a.568.568,0,0,0,.7.7l1.453-.414L4,11.577a.557.557,0,0,0,.945.25L6,10.749l1.054,1.078A.56.56,0,0,0,8,11.577l.375-1.469,1.453.414a.568.568,0,0,0,.7-.7l-.414-1.453L11.577,8a.558.558,0,0,0,.25-.945L10.749,6Z" transform="translate(675 2470)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
